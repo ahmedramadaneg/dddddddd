@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "app": "DermaScan Desktop",
+  "offline": true,
+  "asset_root": "assets/",
+  "global_disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor.",
+  "posts": [
+    {
+      "id": "akiec_001",
+      "class_code": "akiec",
+      "class_name": "Actinic Keratosis",
+      "high_concern": false,
+      "brief": "Actinic keratoses (AKs) are common rough, scaly, pink-to-skin-colored spots caused by long-term sun exposure. They usually appear on sun-exposed areas like the face, ears, balding scalp, forearms, and backs of the hands. Because they represent early sun-induced precancerous changes that can progress to squamous cell carcinoma if untreated, early dermatological care is important.",
+      "tips": [
+        "Protect your skin daily with broad-spectrum sunscreen, hats, and sun-protective clothing to help prevent new spots.",
+        "Have rough, scaly patches on sun-exposed skin evaluated by a dermatologist, as early topical or in-office treatments are very effective.",
+        "See a doctor promptly if a spot grows rapidly, thickens, feels tender, or starts bleeding."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    },
+    {
+      "id": "bcc_001",
+      "class_code": "bcc",
+      "class_name": "Basal Cell Carcinoma",
+      "high_concern": true,
+      "brief": "Basal cell carcinoma (BCC) is a common type of skin cancer that grows slowly and rarely spreads to distant parts of the body, though it can damage surrounding skin tissue if left untreated. Under specialized dermoscopic magnification, doctors look for characteristic pigment and blood vessel patterns to tell it apart from harmless spots.",
+      "tips": [
+        "Pay attention to new pearly bumps, pink patches, or sores that crust, bleed easily, or fail to heal over several weeks.",
+        "Practice consistent sun protection on your face, neck, and ears, where sun-related skin cancers frequently appear.",
+        "Visit a dermatologist for proper magnification (dermoscopy) and evaluation rather than trying to judge a persistent spot on your own."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    },
+    {
+      "id": "bkl_001",
+      "class_code": "bkl",
+      "class_name": "Benign Keratosis / Seborrheic Keratosis",
+      "high_concern": false,
+      "brief": "Seborrheic keratosis (SK) is the most common harmless (non-cancerous) skin growth, often appearing in middle age and becoming more frequent over time or with family history. These spots usually start as flat tan or brown patches and gradually take on a raised, waxy, or \"stuck-on\" texture on the face, chest, back, or limbs.",
+      "tips": [
+        "Most seborrheic keratoses are harmless and do not require medical treatment unless they become itchy, irritated, or bothersome.",
+        "Avoid scratching, picking, or attempting to remove raised skin growths at home, as this can cause irritation or infection.",
+        "Because dark or textured growths can sometimes resemble melanoma, have a dermatologist examine any spot that changes quickly or looks uncertain."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    },
+    {
+      "id": "df_001",
+      "class_code": "df",
+      "class_name": "Dermatofibroma",
+      "high_concern": false,
+      "brief": "Dermatofibroma is a common, benign (non-cancerous) firm skin bump that often develops on the lower legs or arms, sometimes following a minor bug bite or small skin injury. Because its brownish color and firm texture can occasionally mimic more serious pigmented lesions at a glance, doctors use dermoscopy to confirm its benign pattern.",
+      "tips": [
+        "Most dermatofibromas are completely harmless and do not need removal unless they become painful, irritated by clothing/shaving, or bothersome.",
+        "Avoid squeezing or picking at firm skin nodules, which can cause inflammation or scarring.",
+        "Have a doctor examine any firm, dark, or changing bump to confirm it is benign and rule out other conditions."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    },
+    {
+      "id": "mel_001",
+      "class_code": "mel",
+      "class_name": "Malignant Melanoma",
+      "high_concern": true,
+      "brief": "Malignant melanoma is a serious form of skin cancer that develops in pigment-producing cells. Early-stage melanomas are often painless and cause no symptoms, yet catching melanoma while it is still thin and superficial leads to dramatically higher survival rates compared to late-stage disease.",
+      "tips": [
+        "Do not wait for a dark or irregular spot to hurt, itch, or bleed before having it checked—early melanoma rarely causes discomfort.",
+        "Watch for warning signs such as asymmetry, uneven borders, multiple colors, or noticeable changes in size and shape.",
+        "Schedule a professional skin exam promptly if a spot looks suspicious, as early evaluation makes treatment far more effective."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    },
+    {
+      "id": "nv_001",
+      "class_code": "nv",
+      "class_name": "Melanocytic Nevi",
+      "high_concern": false,
+      "brief": "Melanocytic nevi—commonly known as moles—are benign clusters of pigment-producing skin cells that frequently appear on the trunk, arms, legs, and head or neck. Most moles remain stable over time, though natural aging and certain systemic medical therapies can cause existing moles to fade, shrink, or shift in pigment pattern.",
+      "tips": [
+        "Get familiar with the normal size, shape, and color of your moles so you can notice any new or unusual changes early.",
+        "If you are undergoing systemic cancer treatments or immunotherapy, attend regular dermatology follow-ups, as medications can alter how moles look.",
+        "Have a dermatologist check any mole that looks noticeably different from your other spots or changes in shape, border, or color."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    },
+    {
+      "id": "vasc_001",
+      "class_code": "vasc",
+      "class_name": "Vascular Lesions",
+      "high_concern": false,
+      "brief": "Vascular skin lesions are spots or small growths formed by clusters of blood vessels near the skin surface, often appearing red, purple, or bluish-red. Many vascular spots (such as cherry angiomas) are benign, while others can bleed easily when bumped or resemble pigmented lesions without close examination.",
+      "tips": [
+        "Protect raised red or purple spots from friction, scratching, or accidental bumps, as blood-vessel-rich spots can bleed easily.",
+        "Seek medical evaluation if a red or dark spot grows rapidly, bleeds repeatedly, ulcerates, or changes color.",
+        "Let a dermatologist inspect vascular spots with a dermatoscope so they are accurately distinguished from pigmented tumors."
+      ],
+      "images": [],
+      "paper": {
+        "title": null,
+        "citation": null,
+        "local_pdf": null
+      },
+      "disclaimer": "Educational information only. DermaScan does not diagnose, treat, or replace professional medical advice. Only a qualified dermatologist can diagnose a skin condition. If you are worried about a spot, see a doctor."
+    }
+  ]
+}
