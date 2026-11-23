@@ -1,0 +1,23 @@
+version: 1.0.{build}
+image: Visual Studio 2022
+
+environment:
+  PYTHON: C:\Python312-x64
+
+install:
+  - cmd: set PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
+  - cmd: python --version
+  - cmd: python -m pip install --upgrade pip
+  - cmd: python -m pip install PySide6 opencv-python Pillow numpy pyinstaller
+  - cmd: python -m pip install ai-edge-litert || python -m pip install tensorflow-cpu
+
+build_script:
+  - cmd: if not exist model\model_quant_fp16.tflite echo WARNING model file missing - Scan tab will be disabled
+  - cmd: pyinstaller --noconfirm --clean --windowed --name DermaScan --add-data "assets;assets" --add-data "model;model" --add-data "disease_feed.json;." --add-data "labels.txt;." --collect-all ai_edge_litert main.py
+
+after_build:
+  - cmd: 7z a DermaScan-windows.zip .\dist\DermaScan
+
+artifacts:
+  - path: DermaScan-windows.zip
+    name: DermaScan
